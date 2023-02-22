@@ -1,6 +1,6 @@
 # ph-print
 
-药羚打印解决方案，纯前端。
+飞书打印解决方案，纯前端。
 
 - 无框架限制，支持任何前端框架。
 - 不错的性能，可导出/打印上百页 pdf 文件。
@@ -82,13 +82,13 @@ phPrint('printDom', {
 
 #### specialCssStr
 
-在渲染 `iframe` 的过程中，会出现一些样式错乱的情况，可以传入样式字符串调整，以 `elab` 为例，代码如下：
+在渲染 `iframe` 的过程中，会出现一些样式错乱的情况，可以传入样式字符串调整，以我曾经开发过的一个 vue 后台管理系统为例，代码如下：
 
 ![1.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d97f687475584641a5987b8cac45be16~tplv-k3u1fbpfcp-watermark.image?)
 
 ![2.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9eeb751ac6fb452fa1887e121efb0c62~tplv-k3u1fbpfcp-watermark.image?)
 
-`elab` 是因为之前的代码开发得实在太不规范，才会需要传入 `specialCssStr` 来调整样式，正常的项目用不到这个参数。
+这个系统是因为代码开发得实在太不规范，才会需要传入 `specialCssStr` 来调整样式，正常的项目用不到这个参数。
 
 `specialCssStr` 也只会影响打印这个 `iframe` 里的样式，不用担心影响全局，大胆用 `!important` 就行。
 
