@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test {
+            width: 100px;
+            height: 100px;
+            background: purple;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="test" id="printDom">
+        <div>123</div>
+    </div>
+    <script type="module">
+        import phPrint from '../dist/phPrint.esm.js'
+        phPrint('printDom').then(() => {
+            console.log('1', 1);
+        })
+    </script>
+</body>
+</html>

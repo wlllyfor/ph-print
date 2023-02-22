@@ -1,0 +1,30 @@
+{
+  "name": "ph-print",
+  "version": "1.0.11",
+  "description": "pharmaoryx print solution",
+  "main": "rollup.config.js",
+  "module": "dist/phPrint.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.33.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^9.0.0",
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.pharmaoryx.tech/pharmaoryx-fe/ph-print.git"
+  },
+  "keywords": [],
+  "author": "linwang",
+  "license": "ISC"
+}
